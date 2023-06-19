@@ -11,10 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Test Referrer" />
+        <a href={process.env.NEXT_PUBLIC_SITE_URL}>To Intake App</a>
       </main>
 
       <Footer />
